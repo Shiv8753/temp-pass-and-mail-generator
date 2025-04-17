@@ -47,7 +47,7 @@ const sampleContentMiddles = [
   'To get started, please verify your email address by clicking the button below.',
   'Your security is important to us. Please confirm this action.',
   'Use the following code to complete the process:',
-  'We're excited to have you join our community.',
+  "We're excited to have you join our community.",
   'Your account is almost ready to use.'
 ];
 
