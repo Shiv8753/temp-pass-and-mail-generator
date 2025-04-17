@@ -1,4 +1,3 @@
-
 /**
  * Functions to generate random passwords and emails
  */
@@ -41,7 +40,16 @@ export function generatePassword(
  * Generate a random email address
  */
 export function generateEmail(): string {
-  const domains = ['tempmail.com', 'securepass.io', 'randomail.org', 'privatebox.net', 'quickmail.dev'];
+  const domains = [
+    'gmail.com', 
+    'yahoo.com', 
+    'hotmail.com', 
+    'outlook.com', 
+    'protonmail.com',
+    'securemail.com', 
+    'fastmail.com', 
+    'icloud.com'
+  ];
   const usernameLength = Math.floor(Math.random() * 8) + 6; // 6-14 chars
   
   let username = '';
