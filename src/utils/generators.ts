@@ -46,7 +46,7 @@ export function generateEmail(): string {
     'hotmail.com', 
     'outlook.com', 
     'protonmail.com',
-    'securemail.com', 
+    'securepass.com', 
     'fastmail.com', 
     'icloud.com'
   ];
